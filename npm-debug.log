@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/brian/.nvm/versions/node/v10.5.0/bin/node',
+1 verbose cli   '/home/brian/cloudboost/node_modules/.bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'snyk-protect' ]
+2 info using npm@2.15.12
+3 info using node@v10.5.0
+4 warn invalid config loglevel="notice"
+5 verbose run-script [ 'presnyk-protect', 'snyk-protect', 'postsnyk-protect' ]
+6 info presnyk-protect cloudboost-server@1.0.132
+7 info snyk-protect cloudboost-server@1.0.132
+8 verbose unsafe-perm in lifecycle true
+9 info cloudboost-server@1.0.132 Failed to exec snyk-protect script
+10 verbose stack Error: cloudboost-server@1.0.132 snyk-protect: `snyk protect`
+10 verbose stack Exit status 1
+10 verbose stack     at EventEmitter.<anonymous> (/home/brian/cloudboost/node_modules/npm/lib/utils/lifecycle.js:217:16)
+10 verbose stack     at EventEmitter.emit (events.js:182:13)
+10 verbose stack     at ChildProcess.<anonymous> (/home/brian/cloudboost/node_modules/npm/lib/utils/spawn.js:24:14)
+10 verbose stack     at ChildProcess.emit (events.js:182:13)
+10 verbose stack     at maybeClose (internal/child_process.js:961:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+11 verbose pkgid cloudboost-server@1.0.132
+12 verbose cwd /home/brian/cloudboost
+13 error Linux 4.14.83-1-MANJARO
+14 error argv "/home/brian/.nvm/versions/node/v10.5.0/bin/node" "/home/brian/cloudboost/node_modules/.bin/npm" "run" "snyk-protect"
+15 error node v10.5.0
+16 error npm  v2.15.12
+17 error code ELIFECYCLE
+18 error cloudboost-server@1.0.132 snyk-protect: `snyk protect`
+18 error Exit status 1
+19 error Failed at the cloudboost-server@1.0.132 snyk-protect script 'snyk protect'.
+19 error This is most likely a problem with the cloudboost-server package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     snyk protect
+19 error You can get information on how to open an issue for this project with:
+19 error     npm bugs cloudboost-server
+19 error Or if that isn't available, you can get their info via:
+19 error
+19 error     npm owner ls cloudboost-server
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]
