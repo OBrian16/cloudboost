@@ -1,0 +1,7 @@
+{
+  "provider"  : "mailgun",		
+  "apiKey"    : "ef0c2d1be610a4baee54ec303e51e362-059e099e-31b30554",
+  "domain"    : "cloudboost.io",
+  "fromEmail" : "hello@cloudboost.io",
+  "fromName"  : "CloudBoost.io"  
+}
