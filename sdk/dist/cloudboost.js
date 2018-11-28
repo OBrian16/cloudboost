@@ -9799,7 +9799,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/*!
 	    localForage -- Offline Storage, Improved
-	    Version 1.7.1
+	    Version 1.6.0
 	    https://localforage.github.io/localForage
 	    (c) 2013-2017 Mozilla, Apache License 2.0
 	*/
@@ -12594,7 +12594,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	},{"3":3}]},{},[4])(4)
 	});
-
 
 /***/ },
 /* 74 */
